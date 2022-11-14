@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weartake</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <h1>Weartake</h1>
+      <div class="menu_lista">
+        <ul class="lista_menu">
+          <li><a href="#" class="todos">Todos</a></li>
+          <li><a href="#" class="violao">Violão</a></li>
+          <li><a href="#" class="piano">Piano</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="compras">
+        <section class="vitrine">
+          <ul class="lista_vitrine">
+          </ul>
+        </section>
+        <div>
+          <div class="campo_pesquisa">
+            <input class="digite" type="text" placeholder="Digite aqui sua pesquisa" />
+            <button class="pesquisar">Pesquisar</button>
+          </div>
+          <section class="carrinho">
+            <h2>Carrinho de compras</h2>
+            <ul class="lista_carrinho">
+              <div class="carrinho_vazio">
+                <h3>Carrinho vazio</h3>
+                <p>Adicione itens</p>
+              </div>
+            </ul>
+          </section>
+          <div class="total">
+            <div class="quantidade">
+              <p>Quantidade:</p>
+              <span class="quantidadeNumber">0</span>
+            </div>
+            <div class="sub-total">
+              <p>Total</p>
+              <span class="totalNumber">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/database.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
