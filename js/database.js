@@ -145,11 +145,59 @@ const data = [
     tag: ["Percussão"],
   },
   {
-    id: 0,
+    id: 18,
     img: "./../img/Bateria_Eletrônica.webp",
     nome: "Bateria Eletrônica Roland Td-1dmk, Com Fonte Bivolt Td1dmk",
     descricao: "A Roland V-Drums é a bateria eletrônica mais popular do mundo, graças ao seu som poderoso, a excelente sensibilidade e durabilidade lendária. E se você acha que há um grande baterista dentro de você, a nova V-Drums TD-1DMK irá ajudar a despertar isso. A TD-1DMK oferece uma experiência incrível em um kit compacto que é fácil para transportar. O módulo simples, mas potente, inclui uma variedade de kits expressivos de bateria, conectado aos pads de malha dupla na caixa e tons. Essas pads usam duas camadas de malha para um rebote realista (onde a baqueta retorna depois de bater no tambor), assim como em um kit acústico. Apesar de duráveis, eles também são silenciosos e ótimos para praticar a noite. Você pode tocar com fones de ouvido, para não incomodar a família ou os vizinhos e com as funções internas de treino e a capacidade de conexão com o software Melodics, que serve para você estudar bateria - ficará surpreso com a rapidez com que você vai melhorar. Pegue as baquetas, respire fundo e aproveite todo o potencial do TD-1DMK.",
     preco: 9199,
     tag: ["Percussão", " Elétrico"],
+  },
+  {
+    id: 19,
+    img: "./../img/Pacote_com_12_palhetas.jpg",
+    nome: "Pacote com 12 palhetas Jim Dunlop para guitarra elétricas (PVP113)",
+    descricao: "Uma seleção de palhetas que complementam perfeitamente o tom e a jogabilidade dos instrumentos elétricos - Apresenta uma variedade de materiais, formas e medidores para se ajustar ao seu som e estilo de reprodução - Pacote com 12 - Feito nos EUA",
+    preco: 34,
+    tag: ["Acessorios"]
+  },
+  {
+    id: 20,
+    img: "./../img/CAPOTRASTE_PARA_VIOLÃO.jpg",
+    nome: "CAPOTRASTE PARA VIOLÃO EM ALUMÍNIO TONANTE PRATA - CPT10",
+    descricao: "O Capotraste Tonante é o melhor Custo x Benefício do Mercado. Resistente, leve e com belo design em alumínio é fácil de manusear. O Capotraste cumpre a mesma função da pestana, apertando todas as cordas do violão ou algumas cordas em uma determinada casa. Utilizando um Capotraste você poderá alterar o tom da música, ou seja, sem modificar os modelos de acordes utilizados.",
+    preco: 30,
+    tag: ["Acessorios"]
+  },
+  {
+    id: 21,
+    img: "./../img/Acessórios_violao.jpg",
+    nome: "Acessórios violão Capotraste Palhetas e Porta Palheta Kit",
+    descricao: "Capotraste Smart JX28. Palhetas Spring. Porta Palheta adesivado",
+    preco: 49,
+    tag: ["Acessorios"]
+  },
+  {
+    id: 22,
+    img: "./../img/PORTA_PALHETA.jpg",
+    nome: "PORTA PALHETA 5005 SI DUNLOP",
+    descricao: "Porta palheta Preta - Marca: DUNLOP - Produto de origem: BR - Garantia: 90 dias - contra defeito de fabricação",
+    preco: 31,
+    tag: ["Acessorios"]
+  },
+  {
+    id: 23,
+    img: "./../img/Caixa_10_Palheta_Sax.webp",
+    nome: "Caixa 10 Palheta Sax Alto 1 1/2 1,5 Estilo Plasticolver",
+    descricao: "Caixa com 10 palhetas 1,5 - Ótimo custo x benefíco - Ideal para estudantes - Mesmo corte da palheta Vandorem Java",
+    preco: 97,
+    tag: ["Acessorios"]
+  },
+  {
+    id: 24,
+    img: "./../img/VANDOREN_PALHETA_CLARINETA.jpg",
+    nome: "VANDOREN PALHETA CLARINETA Nº 3 - 2203 (UN)",
+    descricao: "- Modelo: Palheta Vandoren Tradicional 3 para Clarinete Requinta - Material: Cana-da-Índia - Série: Tradicional - Aplicação: Clarinete Requinta Mib ( Eb ) - Conteúdo da embalagem: 1 palheta Vandoren - Fabricado na França",
+    preco: 35,
+    tag: ["Acessorios"]
   },
 ];

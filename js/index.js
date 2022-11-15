@@ -15,6 +15,8 @@ let metais = document.querySelector(".matais")
 
 let percussao = document.querySelector(".percussao")
 
+let acessorios = document.querySelector(".acessorios")
+
 let button_ = document.querySelectorAll(".adicionar_carrinho");
 
 let total = document.querySelector(".total");
@@ -438,6 +440,57 @@ percussao.addEventListener("click", (e) => {
   }
 });
 
+acessorios.addEventListener("click", (e) => {
+  ul.innerHTML = "";
+  for (let i = 0; i < data.length; i++) {
+    let tag = data[i].tag
+    if (tag.includes("Acessorios")) {
+      let li = document.createElement("li");
+      li.classList = "itens";
+      li.setAttribute("id", `${i + 1}`);
+
+      let img = document.createElement("img");
+      img.src = data[i].img;
+
+      let span = document.createElement("span");
+      span.classList = "class";
+      span.innerHTML = data[i].tag;
+
+      let h3 = document.createElement("h3");
+      h3.innerHTML = data[i].nome;
+
+      let p = document.createElement("p");
+      p.innerHTML = data[i].descricao;
+
+      let span_preco = document.createElement("span");
+      span_preco.innerHTML = formatador.format(data[i].preco);;
+
+      let button = document.createElement("button");
+      button.innerHTML = "Adicionar ao carrinho";
+      button.classList = "adicionar_carrinho";
+
+      li.append(img, span, h3, p, span_preco, button);
+
+      ul.append(li);
+
+      button.addEventListener("click", (e) => {
+        let bool = true;
+
+        let array = document.querySelectorAll(".itens_carrinho");
+
+        for (let j = 0; j < array.length; j++) {
+          if (array[j].id == li.id) {
+            bool = false;
+          }
+        }
+        if (bool == true) {
+          addCarrinho(data[i]);
+        }
+      });
+    }
+  }
+});
+
 function removerCarrinho(target) {
   target.remove();
   totalItens_--;
@@ -537,5 +590,3 @@ buttonPesquisa.addEventListener("click", (e) => {
     }
   }
 });
-
-// intl.NumberFormat()
