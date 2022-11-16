@@ -27,26 +27,24 @@ body {
 
 .lista_menu {
   display: flex;
-  justify-content: space-around;
-}
-
-.lista_menu li {
-  margin-left: 10vh;
   list-style: none;
+  align-items: center;
 }
 
-.lista_menu li a {
+.lista_menu a {
   text-decoration: none;
-  color: black;
-  font-weight: bold;
 }
 
-.lista_menu li a:hover {
-  color: #37268c;
-}
-
-.lista_menu li a:focus {
-  color: #002fff;
+.select {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  cursor: pointer;
+  padding: 5px 50px 5px 5px;
+  border: solid 1px #37268c;
+  border-radius: 7px;
+  color: white;
+  background-color: #37268cc5;
 }
 
 .compras {
@@ -88,7 +86,8 @@ body {
 
 .itens img {
   width: 100%;
-  min-width: 00px;
+  min-width: 100px;
+  height: 40%;
   background-color: #aa9a9a;
 }
 
@@ -143,6 +142,7 @@ span {
   flex-wrap: wrap;
   overflow: auto;
   align-items: flex-start;
+
 }
 
 .carrinho h2 {
@@ -241,3 +241,10 @@ span {
   align-items: center;
   margin: 0;
 }
+/*
+.section_2  {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}*/

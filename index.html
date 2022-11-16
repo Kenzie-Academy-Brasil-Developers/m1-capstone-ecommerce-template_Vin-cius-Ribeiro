@@ -5,34 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon" />
     <title>Musical Point</title>
   </head>
   <body>
-    <nav class="menu">
-      <h1>Musical Point</h1>
-      <div class="menu_lista">
-        <ul class="lista_menu">
-          <li><a href="#todos" class="todos">Todos</a></li>
-          <li><a href="#cordas" class="cordas">Cordas</a></li>
-          <li><a href="#madeira" class="madeira">Madeira</a></li>
-          <li><a href="#eletricos" class="eletrico">Elétrico</a></li>
-          <li><a href="#sopro" class="sopro">Sopro</a></li>
-          <li><a href="#metais" class="matais">Metais</a></li>
-          <li><a href="#percussao" class="percussao">Percussão</a></li>
-          <li><a href="#acessorios" class="acessorios">Acessorios</a></li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav class="menu">
+        <h1>Musical Point</h1>
+        <div class="menu_lista">
+          <ul class="lista_menu">
+            <li><a href="#todos" class="todos">Todos</a></li>
+            <select class="select">
+              <option value="Categorias">Categorias</option>
+              <option value="Cordas">
+                <a href="#cordas" class="cordas">Cordas</a>
+              </option>
+              <option value=" Madeira">
+                <a href="#madeira" class="madeira">Madeira</a>
+              </option>
+              <option value=" Elétrico">
+                <a href="#eletricos" class="eletrico">Elétrico</a>
+              </option>
+              <option value="Sopro">
+                <a href="#sopro" class="sopro">Sopro</a>
+              </option>
+              <option value=" Metais">
+                <a href="#metais" class="matais">Metais</a>
+              </option>
+              <option value="Percussão">
+                <a href="#percussao" class="percussao">Percussão</a>
+              </option>
+              <option value="Acessorios">
+                <a href="#acessorios" class="acessorios">Acessorios</a>
+              </option>
+            </select>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
       <div class="compras">
         <section class="vitrine">
-          <ul class="lista_vitrine">
-          </ul>
+          <ul class="lista_vitrine"></ul>
         </section>
-        <div>
+        <div class="section_2">
           <div class="campo_pesquisa">
-            <input class="digite" type="text" placeholder="Digite aqui sua pesquisa" />
+            <input
+              class="digite"
+              type="text"
+              placeholder="Digite aqui sua pesquisa"
+            />
             <button class="pesquisar">Pesquisar</button>
           </div>
           <section class="carrinho">
