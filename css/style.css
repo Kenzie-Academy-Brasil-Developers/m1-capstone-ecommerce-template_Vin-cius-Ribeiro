@@ -82,7 +82,7 @@ body {
   -webkit-box-orient: vertical;
 }
 
-.itens:hover {
+.itens:hover, .itens_carrinho:hover {
   border: solid 2px #37268c;
 }
 
